@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&family=Montserrat:wght@300;400&display=swap');
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-image{
+    border: 4px solid black;
+    padding: 4px;
+}
+/* about section */
+.about-me-section{
+    background-image: url(kk.jpg);
+    background-color: rgb(87, 61, 61);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* project */
+.project-section{
+    background: #efefef;
+}
+
+.project-img{
+    max-height: 200px;
+    object-fit: cover;
+}
